@@ -66,6 +66,9 @@ int[] keys = {12, 22, 91, 13, 16, 14, 15, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27
 
 Uncomment alternative arrays or create your own to visualize different sets of keys.
 
+## Visualization
+![AVL Tree Visualization](avl-tree-visualization.gif)
+
 ## Dependencies
 
 - Java Development Kit (JDK) 8 or higher.
