@@ -1,54 +1,48 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
-# BlueJ files
-*.ctxt
+# IntelliJ IDEA-specific files
+*.iml
+.idea/
+out/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Ignore build artifacts
 *.jar
 *.war
 *.nar
 *.ear
+
+# Ignore archives
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Java Virtual Machine crash logs
 hs_err_pid*
 replay_pid*
 
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
+# IDE-specific exclusions
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# VS Code
 .vscode/
-
-### Mac OS ###
-.DS_Store
